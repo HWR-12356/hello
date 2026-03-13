@@ -13,7 +13,9 @@
       ></el-table-column>
       <el-table-column prop="operate" label="操作" width="180">
         <template #default="scope">
-          <el-button color="orange" @click="editRow(scope.row)">编辑</el-button>
+          <el-button color="orange" @click="editRow(scope.row)"
+            >编辑1</el-button
+          >
           <el-button color="red" @click="deleteRow(scope.row)">删除</el-button>
         </template>
       </el-table-column>
